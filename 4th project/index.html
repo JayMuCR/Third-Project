@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Coffee Blog Website">
+    <title>CoffeeBlog</title>
+    <!-- Normalize -->
+    <link rel="preload" href="/css/normalize.css" as="style" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <!-- Google Fonts -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="preload" href="/css/styles.css" as="style" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- Prefetch -->
+    <link rel="Prefetch" href="aboutUs.html" as="document" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="bar">
+          <a href="index.html" class="logo">
+            <h1 class="logo__name no-margin center-text">
+              Coffee<span class="logo__bold">Blog</span>
+            </h1>
+          </a>
+
+          <!-- Navbar -->
+          <nav class="nav">
+            <a href="aboutUs.html" class="nav__link">About Us</a>
+            <a href="courses.html" class="nav__link">Our Courses</a>
+            <a href="contact.html" class="nav__link">Contact Us</a>
+          </nav>
+        </div>
+      </div>
+      <!-- Header main -->
+      <div class="header__text">
+        <h2 class="no-margin">Coffee blog with tips and courses</h2>
+        <p class="no-margin">
+          Learn from experts with the best recipes and tips
+        </p>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <div class="container main-content">
+      <!-- Main -->
+      <main class="blog">
+        <h3>Our Blog</h3>
+
+        <article class="entry">
+          <div class="entry__img">
+            <picture>
+              <source
+                loading="lazy"
+                srcset="/img/blog1.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="/img/blog1.jpg" alt="blog-image" />
+            </picture>
+          </div>
+
+          <div class="entry__content">
+            <h4 class="no-margin">Coffee Beans Types</h4>
+            <p>
+              Curabitur malesuada pellentesque dolor, non semper urna luctus in.
+              Nunc commodo et ante eget viverra. Pellentesque id dignissim
+              augue. Etiam in facilisis est. In vitae mollis turpis. Cras
+              malesuada nulla nec magna ultricies, nec efficitur arcu sagittis.
+              Donec eu vulputate orci. Quisque tincidunt semper imperdiet.
+            </p>
+            <a href="entry.html" class="button primary--button">Read more about this article</a>
+          </div>
+        </article>
+        <!-- Another article -->
+        <article class="entry">
+          <div class="entry__img">
+            <picture>
+              <source
+                loading="lazy"
+                srcset="/img/blog2.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="/img/blog2.jpg" alt="blog-image" />
+            </picture>
+          </div>
+
+          <div class="entry__content">
+            <h4 class="no-margin">3 Delicious Coffee Recipes</h4>
+            <p>
+              Orci varius natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Aenean convallis ante et est pretium, eu
+              rutrum magna tristique. Aenean ultrices lectus sapien, nec
+              tristique libero venenatis vitae. Donec sit amet aliquet sem.
+              Aliquam orci risus.
+            </p>
+            <a href="entry.html" class="button primary--button">Read more about this article</a>
+          </div>
+        </article>
+        <!-- Another article -->
+        <article class="entry">
+          <div class="entry__img">
+            <picture>
+              <source
+                loading="lazy"
+                srcset="/img/blog3.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="/img/blog3.jpg" alt="blog-image" />
+            </picture>
+          </div>
+
+          <div class="entry__content">
+            <h4 class="no-margin">Coffee Benefits</h4>
+            <p>
+              Nam sed justo eros. Orci varius natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Duis accumsan dolor ac
+              lectus semper mattis. Quisque feugiat justo at tortor porttitor
+              sodales. Aenean condimentum ut lectus quis accumsan. Vestibulum
+              tempor velit accumsan nunc commodo dictum.
+            </p>
+            <a href="entry.html" class="button primary--button">Read more about this article</a>
+          </div>
+        </article>
+      </main>
+      <!-- Aside -->
+      <aside class="sidebar">
+        <h2>Our courses</h2>
+        <ul class="courses no-padding">
+          <li class="widget-course">
+            <h4 class="no-margin">Extraction Coffee Techniques</h4>
+            <p class="widget-course__label">
+              Price:
+              <span class="widget-course__info">Free</span>
+            </p>
+            <p class="widget-course__label">
+              Available spots:
+              <span class="widget-course__info">20</span>
+            </p>
+            <a href="entrada.html" class="button secondary--button"
+              >Read more about our courses</a
+            >
+          </li>
+          <!-- Second -->
+          <li class="widget-course">
+            <h4 class="no-margin">4 Easy Coffee Recipes For Beginners</h4>
+            <p class="widget-course__label">
+              Price:
+              <span class="widget-course__info">Free</span>
+            </p>
+            <p class="widget-course__label">
+              Available spots:
+              <span class="widget-course__info">22</span>
+            </p>
+            <a href="entrada.html" class="button secondary--button"
+              >Read more about our courses</a
+            >
+          </li>
+          <!-- Third -->
+          <li class="widget-course">
+            <h4 class="no-margin">How To Import Coffee From Jupiter</h4>
+            <p class="widget-course__label">
+              Price:
+              <span class="widget-course__info">$5</span>
+            </p>
+            <p class="widget-course__label">
+              Available spots:
+              <span class="widget-course__info">9</span>
+            </p>
+            <a href="entrada.html" class="button secondary--button"
+              >Read more about our courses</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container bar">
+        <a href="index.html" class="logo">
+          <h1 class="logo__name no-margin center-text">
+            Coffee<span class="logo__bold">Blog</span>
+          </h1>
+        </a>
+
+        <!-- Navbar -->
+        <nav class="nav">
+          <a href="aboutUs.html" class="nav__link">About Us</a>
+          <a href="courses.html" class="nav__link">Our Courses</a>
+          <a href="contact.html" class="nav__link">Contact Us</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="/js/modernizr.js"></script>
+  </body>
+</html>
